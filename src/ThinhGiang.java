@@ -51,6 +51,7 @@ public class ThinhGiang extends GiangVien{
 	public void xuatGVThinhGiang() {
 		String output= super.xuatGiangVien();
 		output += " -  Noi cong tac: "+ noiCT;
+		System.out.println(output);
 		super.xemMonHoc(); // hien thi cac mon hoc cua giang vien
 	}
 }

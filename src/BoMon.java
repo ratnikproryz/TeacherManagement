@@ -64,6 +64,7 @@ public class BoMon {
 			}else { // nguoc lai, goi toi ham xuat giang vien thinh giang
 				((ThinhGiang) gVien).xuatGVThinhGiang();
 			}
+			System.out.println("-------------------------------------------------");
 		}
 	}
 	

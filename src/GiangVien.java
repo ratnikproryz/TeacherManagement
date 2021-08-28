@@ -75,11 +75,16 @@ public class GiangVien {
 		monHoc.nhapMonHoc(); // nhap thong tin mon hoc
 		dsMonHoc.add(monHoc); // them vao danh sach
 	}
+	
 	public String xuatGiangVien() {//tra ve nhung thong tin cho cac lop con
 		String output="Ma GV: "+ maGV+" - Ten GV: "+tenGV+" - Nam sinh: "+ namSinh+" - Trinh do: "+ trinhDo;
 		return output;
 	}
 	
+//	tinh tuoi giang vien
+	public int getTuoi() {
+		return 2021-namSinh;
+	}
 	
 //	getter, setter
 	public String getMaGV() {
